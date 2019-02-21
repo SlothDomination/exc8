@@ -1,0 +1,39 @@
+/*
+ Theme Name:   Twenty Nineteen Enfant
+ Theme URI:    http://referenced.ca
+ Description:  Twenty Nineteen Enfant
+ Author:       SlothDomniation
+ Author URI:   http://example.com
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-nineteen-enfant
+*/
+
+body{
+	background-color:grey;
+}
+
+.site-header{
+    background-image: linear-gradient(black, grey);
+	position:relative;
+	padding-bottom:2em;
+	border-top:0.2em solid red;
+}
+
+.site-description{
+	color:white;
+}
+
+.site-branding > .site-title a{
+	position:absolute;
+	bottom:-2em;
+	color:white;
+	text-shadow: 0.1em 0.1em rgba(255, 0, 0, 0.3);	
+}
+
+
+
+
