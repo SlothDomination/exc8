@@ -35,6 +35,7 @@ body{
 }
 
 /*--Page commit------*/
+/*CSSheader*/
 .entry-header{
 	border-bottom:0.1em dashed white;
 	color:white;
@@ -43,4 +44,11 @@ body{
 	background-image:linear-gradient(grey, grey, grey, grey, grey, grey, black);	
 }
 
+/*CSStitleArticle*/
+.paraghTitleArticle{
+	color:white;
+	background-image:linear-gradient(to right, grey, rgba(255, 0, 0, 0.5), grey);
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
 
