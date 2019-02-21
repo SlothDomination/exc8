@@ -52,3 +52,12 @@ body{
 	padding-bottom:0.5em;
 }
 
+/*CSSclasseCitation*/
+.Citation p, .Citation cite{
+	color:white;
+}
+
+.Citation cite{
+	opacity:0.7;
+}
+
