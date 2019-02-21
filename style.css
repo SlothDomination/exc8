@@ -34,6 +34,13 @@ body{
 	text-shadow: 0.1em 0.1em rgba(255, 0, 0, 0.3);	
 }
 
-
+/*--Page commit------*/
+.entry-header{
+	border-bottom:0.1em dashed white;
+	color:white;
+	text-shadow: 0.2em 0.2em rgba(255, 0, 0, 0.3);
+	box-shadow: 0 0.07em rgba(255, 0, 0, 0.3);
+	background-image:linear-gradient(grey, grey, grey, grey, grey, grey, black);	
+}
 
 
