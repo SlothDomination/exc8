@@ -69,3 +69,9 @@ body{
 	background-image:linear-gradient(to right, black, grey);
 	text-shadow: 0.05em 0.05em rgba(255, 255, 255, 1);	
 }
+
+/*CSSclasse liste-niveau*/
+.liste-niveau{
+	color:white;
+	border-bottom:0.1em solid white;
+}
