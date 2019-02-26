@@ -461,12 +461,32 @@ template {
 
 .conteneur h2 {
   font-size: 12pt;
+  background-image: -webkit-gradient(linear, left top, right top, from(black), color-stop(black), to(grey));
+  background-image: linear-gradient(to right, black, black, grey);
+  border-radius: 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 0.1em solid rgba(255, 0, 0, 0.4);
+}
+
+.conteneur a {
+  color: white;
+  text-shadow: 0.1em 0.1em rgba(255, 0, 0, 0.8);
 }
 
 @media only screen and (min-width: 768px) {
   .conteneur {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+    margin-right: 2em;
+    margin-left: 1em;
+  }
+  .conteneur h2 {
+    font-size: 14pt;
+    background-color: black;
+    background-image: none;
+    border-radius: 0.5em;
+    padding-bottom: 0.5em;
+    border: 0.1em solid rgba(255, 0, 0, 0.4);
   }
 }
 

@@ -5,7 +5,6 @@
     h2{
         font-size:12pt;
         background-image: linear-gradient(to right, black, black, grey);
-       // background-color: black;
         border-radius:0.5em;
         padding-bottom: 0.5em;
         border-bottom:0.1em solid rgba(255, 0, 0, 0.4);
@@ -20,7 +19,18 @@
     @include media (tablet) {
         .conteneur{       
             grid-template-columns: 1fr 1fr;    
-        }        
+            margin-right:2em;
+            margin-left:1em;
+
+            h2{
+                font-size:14pt;
+                background-color: black;
+                background-image: none;
+                border-radius:0.5em;
+                padding-bottom: 0.5em;
+                border:0.1em solid rgba(255, 0, 0, 0.4);                
+            }                
+        }            
     }
 
     @include media (desktop) {
