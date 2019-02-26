@@ -1,3 +1,7 @@
+.site-branding > .site-title a{
+    opacity:0;
+}
+
 .Anim_site-header{
         animation: animSiteHeader 3s;
         /*background-color: red;*/
@@ -33,14 +37,3 @@
             opacity:1;
         }
     }
-    
-    @keyframes animParaghTitreArticle {
-        from {
-            transform: scale(0);
-        }
-    
-        to {
-            transform: scale(1.0);
-        }
-    }
-    

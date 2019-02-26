@@ -383,6 +383,10 @@ template {
 /*--------------------------------------------------------------
 # Animation introduction
 --------------------------------------------------------------*/
+.site-branding > .site-title a {
+  opacity: 0;
+}
+
 .Anim_site-header {
   -webkit-animation: animSiteHeader 3s;
           animation: animSiteHeader 3s;
