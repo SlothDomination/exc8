@@ -449,25 +449,31 @@ template {
   }
 }
 
-@-webkit-keyframes animParaghTitreArticle {
-  from {
-    -webkit-transform: scale(0);
-            transform: scale(0);
-  }
-  to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+/*--------------------------------------------------------------
+# cours
+--------------------------------------------------------------*/
+.conteneur {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.conteneur h2 {
+  font-size: 12pt;
+}
+
+@media only screen and (min-width: 768px) {
+  .conteneur {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
   }
 }
 
-@keyframes animParaghTitreArticle {
-  from {
-    -webkit-transform: scale(0);
-            transform: scale(0);
-  }
-  to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+@media only screen and (min-width: 900px) {
+  .conteneur {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
   }
 }
 /*# sourceMappingURL=style.css.map */

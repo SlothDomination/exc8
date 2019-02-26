@@ -24,6 +24,7 @@ get_header();
 				?>
 			</header><!-- .page-header -->
 
+			<div class="conteneur">
 			<?php
 			// Start the Loop.
 			while ( have_posts() ) :
@@ -34,20 +35,17 @@ get_header();
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 				 */
-				get_template_part( 'template-parts/content/content', 'titre-cours' );//exerpt = petit résumé
+				get_template_part( 'template-parts/content/content', 'titre-cours' );//exerpt = petit résumé -> affiche titres du cours
 
 				// End the loop.
-			endwhile;
-
+			endwhile;?>
+			</div>
+			<?php
 			// Previous/next page navigation.
 			twentynineteen_the_posts_navigation();
-
-			// If no content, include the "No posts found" template.
-		else :
-			get_template_part( 'template-parts/content/content', 'none' );
-
 		endif;
 		?>
+		
 		</main><!-- #main -->
 	</section><!-- #primary -->
 

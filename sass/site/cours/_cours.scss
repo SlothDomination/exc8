@@ -1,0 +1,26 @@
+.conteneur{
+    display:grid;
+    grid-template-columns: 1fr;
+
+    h2{
+        font-size:12pt;
+       
+    }
+
+}
+
+    @include media (tablet) {
+        .conteneur{       
+            grid-template-columns: 1fr 1fr;    
+        }        
+    }
+
+    @include media (desktop) {
+        .conteneur{       
+            grid-template-columns: 1fr 1fr 1fr;    
+        }        
+    }
+
+
+
+
