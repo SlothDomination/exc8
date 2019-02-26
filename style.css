@@ -495,5 +495,13 @@ template {
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
   }
+  .conteneur h2 {
+    font-size: 17pt;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(black), to(grey));
+    background-image: linear-gradient(to top, black, black, grey);
+    border: none;
+    border-bottom: 0.1em solid rgba(255, 0, 0, 0.4);
+    padding-left: 1em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
