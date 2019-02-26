@@ -1,0 +1,15 @@
+.Anim_site-header{
+        animation: animSiteHeader 5s;
+        background-color: red;
+    }
+    
+    @keyframes animSiteHeader {
+        from {
+            transform: translateX(-50vh);
+    
+        }
+    
+        to {
+            transform: translateX(0%);
+        }
+    }

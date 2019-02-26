@@ -21,7 +21,6 @@ body{
 	position:relative;
 	padding-bottom:2em;
 	border-top:0.2em solid red;
-	animation: animSiteHeader 5s;
 }
 
 .site-description{
@@ -75,15 +74,4 @@ body{
 .liste-niveau{
 	color:white;
 	border-bottom:0.1em solid white;
-}
-
-@keyframes animSiteHeader {
-	from {
-		transform: translateX(-100vw);
-
-	}
-
-	to {
-		transform: translateX(0%);
-	}
 }
