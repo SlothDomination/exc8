@@ -4,12 +4,16 @@
 
     h2{
         font-size:12pt;
-       
+        background-image: linear-gradient(to right, black, black, grey);
+       // background-color: black;
+        border-radius:0.5em;
+        padding-bottom: 0.5em;
+        border-bottom:0.1em solid rgba(255, 0, 0, 0.4);
     }
 
     a{
         color:white;
-        text-shadow: 0.1em 0.1em rgba(255, 0, 0, 0.5);	
+        text-shadow: 0.1em 0.1em rgba(255, 0, 0, 0.8);	
     }
 }
 
