@@ -36,7 +36,15 @@
     @include media (desktop) {
         .conteneur{       
             grid-template-columns: 1fr 1fr 1fr;    
-        }        
+        
+            h2{
+                font-size:17pt;
+                background-image: linear-gradient(to top, black, black, grey);
+                border:none;
+                border-bottom:0.1em solid rgba(255, 0, 0, 0.4);
+                padding-left:1em;
+            }
+        }         
     }
 
 
